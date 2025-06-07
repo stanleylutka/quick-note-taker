@@ -1,0 +1,38 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quick Note Taker</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1>Quick Note Taker</h1>
+
+    <div class="theme-toggle">
+    <span class="theme-icon">☀️</span>
+    <label class="switch">
+        <input type="checkbox" id="dark_toggle">
+        <span class="slider"></span>
+    </label>
+    <span class="theme-icon">🌙</span>
+    </div>
+
+
+
+
+    <!-- Textarea for writing a note -->
+    <textarea id="note_writing" name="note_writing" rows="4" cols="50" placeholder="Write your note here..."></textarea>
+
+    <!-- Save Note button -->
+    <button id="save_button" type="button">Save Note</button>
+
+    <!-- Where notes will be listed -->
+    <ul id="note_list" style="list-style-type:square"></ul>
+
+    <!-- Script will go here or in a separate script.js -->
+    <script src="script.js"></script>
+</body>
+</html>
